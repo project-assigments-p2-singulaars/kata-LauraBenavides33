@@ -23,7 +23,7 @@ describe('FizzBuzz', () => {
 
     it('should print FizzBuzz when the numbers arent valid(null or negative)',()=>{
         const number=null;
-        const number2=-8;
+        const number2=-4;
         const sut = fizzbuzz(number,number2)
         expect(sut).toBe("FizzBuzz")
     })

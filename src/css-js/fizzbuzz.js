@@ -1,5 +1,5 @@
 // Calculadora del area de un cuadrado
-// 1. Cuando los valores son int y son iguales, es decir, forman un cuadrado, imprime "Fizz"
+// 1. Cuando los valores son int y son iguales, es decir , forman un cuadrado, imprime "Fizz"
 // 2. Cuando los valores son int y numeros diferentes y, por lo tanto, no forman un cuadrado, imprime "Buzz"
 // 3. Cuando los números son negativos, zero o no tienen un valor, imprime "FizzBuzz"
 
