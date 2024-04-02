@@ -3,14 +3,14 @@
 // 2. Cuando los valores son int y numeros diferentes y, por lo tanto, no forman un cuadrado, imprime "Buzz"
 // 3. Cuando los números son negativos, zero o no tienen un valor, imprime "FizzBuzz"
 
-function fizzbuzz(number,number2){
+function CalculadoraAreaCuadrado(number,number2){
     if(number === number2 && (number&&number2)/1){
-        return "Fizz"
-    } else if(number !== number2 && (number&&number2)/1){
-        return "Buzz"
+        return "Son enteros e iguales"
+    } else if(number !== number2&& (number&&number2)/1){
+        return "No son enteros ni iguales"
     } else if ((number||number2)<=0||(number||number2)===null){
-        return "FizzBuzz"
+        return "Los numeros son enteros pero son zero, negativos o no tienen valor"
     } return number,number2
 }
 
-module.exports ={fizzbuzz}
+module.exports ={CalculadoraAreaCuadrado}
